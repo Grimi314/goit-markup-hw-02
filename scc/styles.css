@@ -1,0 +1,55 @@
+body{
+    font-family: Roboto, Helvetica, Open Sans, Verdana, Lato, Work Sans, sans-serif ;
+    font: size 16px;;
+    background-color: #ffffff ;
+    color: #212121 ;
+    line-height: 1.5px;
+}
+.logo{
+    color: #212121;
+}
+.page-nav .link{
+    color: #212121;
+}
+.page-nav .link:hover{
+    color: #404bbf;
+}
+.page-nav .link1:hover {
+    color: #404bbf;
+}
+.page-nav .link1:active{
+    color:#404bbf;
+}
+
+.address .link{
+    color: #212121;
+}
+
+.address .link:hover{
+    color: #404bbf;
+
+}
+.section1{
+    background-color: #2E2F42;
+}
+.section1 .h1{
+    color: #ffffff;
+}
+.button{
+    background-color: #4D5AE5;
+}
+.button:hover{
+    color: #404bbf;
+}
+.button .button-name{
+    color: #ffffff;
+}
+.section3{
+    background-color: #F4F4FD;
+}
+footer{
+    background-color: #2E2F42;
+}
+.footer-logo{
+    color: #ffffff;
+}
