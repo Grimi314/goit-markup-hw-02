@@ -6,27 +6,33 @@ body{
     line-height: 1.5;
 }
 .logo {
-    color: #2e2f42;
-    font-family: "Raleway", sans-serif;
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif,;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
 }
 .logo .color{
     color: #2e2f42;
 }
-.page-nav .link{
+.page-nav .link1{
     color: #2e2f42;
     font-weight: 500;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
-.page-nav .link:hover{
+.page-nav .link{
+    color: #2e2f42;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+.page-nav .link:hover, .page-nav .link:focus{
     color: #404bbf;
 }
-.page-nav .link1:hover {
+.page-nav .link1:hover, .page-nav .link1:focus{
     color: #404bbf;
 }
 .page-nav .link1:active{
@@ -34,28 +40,42 @@ body{
 }
 
 .address .link{
-    color: #2e2f42;
+    color: #434455;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
+
 }
 
-.address .link:hover{
+.address .link:hover, .address .link:focus{
     color: #404bbf;
 
 }
-.section1{
+.section{
     background-color: #2E2F42;
 }
-.section1 .h1{
+.section .title{
     color: #ffffff;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em
+
 }
 .button{
     background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
 }
-.button:hover{
+.button:hover, .button:focus{
     color: #404bbf;
 }
-.button .button-name{
-    color: #ffffff;
-}
+
 .section3{
     background-color: #F4F4FD;
 }
