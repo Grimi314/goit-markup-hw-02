@@ -58,7 +58,7 @@ body{
 .section-one{
    background-color: #2e2f42;
 }
-.section .title{
+.section-one .title{
     color: #ffffff;
     font-size: 56px;
     line-height: 1.07;
